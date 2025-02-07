@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 外圈渐变背景 -->
+    <circle cx="32" cy="32" r="30" fill="url(#gradient)" />
+    
+    <!-- 上传箭头和线条 -->
+    <path d="M32 20v18M25 27l7-7 7 7M20 42h24" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- 渐变定义 -->
+    <defs>
+        <linearGradient id="gradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#0071e3"/>
+            <stop offset="100%" stop-color="#40a9ff"/>
+        </linearGradient>
+    </defs>
+</svg> 
